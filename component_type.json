@@ -1,0 +1,2237 @@
+[
+    {
+      "id": "23000000-0000-0000-0000-000000000000",
+      "name": "HVAC Systems",
+      "description": "Complete HVAC Systems and Equipment",
+      "parentTypeId": null,
+      "csiCode": "23 00 00"
+    },
+    {
+      "id": "23050000-0000-0000-0000-000000000000",
+      "name": "Common Work Results for HVAC",
+      "description": "Common HVAC Components and Requirements",
+      "parentTypeId": "23000000-0000-0000-0000-000000000000",
+      "csiCode": "23 05 00"
+    },
+    {
+      "id": "23051300-0000-0000-0000-000000000000",
+      "name": "Common Motor Requirements for HVAC",
+      "description": "Standard Motor Requirements",
+      "parentTypeId": "23050000-0000-0000-0000-000000000000",
+      "csiCode": "23 05 13"
+    },
+    {
+      "id": "23051313-0000-0000-0000-000000000000",
+      "name": "Premium Efficiency Motors",
+      "description": "High Efficiency HVAC Motors",
+      "parentTypeId": "23051300-0000-0000-0000-000000000000",
+      "csiCode": "23 05 13.13"
+    },
+    {
+      "id": "23051316-0000-0000-0000-000000000000",
+      "name": "Electronically Commutated Motors",
+      "description": "EC Motors for HVAC Equipment",
+      "parentTypeId": "23051300-0000-0000-0000-000000000000",
+      "csiCode": "23 05 13.16"
+    },
+    {
+      "id": "2ebeaa43-cd12-432e-86c6-92f04701bd68",
+      "name": "Hydronic Piping and Pumps",
+      "description": "Hydronic Distribution Systems",
+      "parentTypeId": "23000000-0000-0000-0000-000000000000",
+      "csiCode": "23 21 00"
+    },
+    {
+      "id": "bf2d73e0-a13f-421a-b9d5-6c6c52a59ba9",
+      "name": "Hydronic Pumps",
+      "description": "Hydronic Pumps",
+      "parentTypeId": "2ebeaa43-cd12-432e-86c6-92f04701bd68",
+      "csiCode": "23 21 23"
+    },
+    {
+      "id": "d3ae6a49-ca2b-47a8-ace8-353607db579f",
+      "name": "In-Line Centrifugal Hydronic Pumps",
+      "description": "In-Line Centrifugal Hydronic Pumps",
+      "parentTypeId": "bf2d73e0-a13f-421a-b9d5-6c6c52a59ba9",
+      "csiCode": "23 21 23.13"
+    },
+    {
+      "id": "0bc576ac-02a8-4930-941f-9a291dbf0c65",
+      "name": "Base-Mounted, Centrifugal Hydronic Pumps",
+      "description": "Base-Mounted, Centrifugal Hydronic Pumps",
+      "parentTypeId": "bf2d73e0-a13f-421a-b9d5-6c6c52a59ba9",
+      "csiCode": "23 21 23.16"
+    },
+    {
+      "id": "b7be6ee2-b47b-4a8c-b29e-60bf2bb7beba",
+      "name": "Vertical-Mounted, Double-Suction Centrifugal Hydronic Pumps",
+      "description": "Vertical-Mounted, Double-Suction Centrifugal Hydronic Pumps",
+      "parentTypeId": "bf2d73e0-a13f-421a-b9d5-6c6c52a59ba9",
+      "csiCode": "23 21 23.19"
+    },
+    {
+      "id": "55ab2c5d-d3d2-45fc-b71d-56a17e11b637",
+      "name": "Vertical-Turbine Hydronic Pumps",
+      "description": "Vertical-Turbine Hydronic Pumps",
+      "parentTypeId": "bf2d73e0-a13f-421a-b9d5-6c6c52a59ba9",
+      "csiCode": "23 21 23.23"
+    },
+    {
+      "id": "5ee73405-bcbb-4985-93ba-2d62d42e643c",
+      "name": "Variable Frequency Drives",
+      "description": "Variable Frequency Drives",
+      "parentTypeId": "23000000-0000-0000-0000-000000000000",
+      "csiCode": "23 29 23"
+    },
+    {
+      "id": "23292313-0000-0000-0000-000000000000",
+      "name": "Standard VFDs",
+      "description": "Standard Variable Frequency Drives",
+      "parentTypeId": "5ee73405-bcbb-4985-93ba-2d62d42e643c",
+      "csiCode": "23 29 23.13"
+    },
+    {
+      "id": "23292316-0000-0000-0000-000000000000",
+      "name": "Harmonic Mitigating VFDs",
+      "description": "VFDs with Harmonic Mitigation",
+      "parentTypeId": "5ee73405-bcbb-4985-93ba-2d62d42e643c",
+      "csiCode": "23 29 23.16"
+    },
+    {
+      "id": "705363ff-26fc-4460-b413-8e1e894bc068",
+      "name": "HVAC Fans",
+      "description": "HVAC Fans",
+      "parentTypeId": "23000000-0000-0000-0000-000000000000",
+      "csiCode": "23 34 00"
+    },
+    {
+      "id": "325195ec-2b34-47df-8649-72c4d599c693",
+      "name": "Axial HVAC Fans",
+      "description": "Axial HVAC Fans",
+      "parentTypeId": "705363ff-26fc-4460-b413-8e1e894bc068",
+      "csiCode": "23 34 13"
+    },
+    {
+      "id": "5f8252fe-6cc4-47a4-be5d-e9608420df5b",
+      "name": "Centrifugal HVAC Fans",
+      "description": "Centrifugal HVAC Fans",
+      "parentTypeId": "705363ff-26fc-4460-b413-8e1e894bc068",
+      "csiCode": "23 34 16"
+    },
+    {
+      "id": "70453ac9-069e-4574-9d1e-42bbfd7fb5a9",
+      "name": "HVAC Power Ventilators",
+      "description": "HVAC Power Ventilators",
+      "parentTypeId": "705363ff-26fc-4460-b413-8e1e894bc068",
+      "csiCode": "23 34 23"
+    },
+    {
+      "id": "522794c3-499d-4366-95f1-89215315c894",
+      "name": "Air Curtains",
+      "description": "Air Curtains",
+      "parentTypeId": "705363ff-26fc-4460-b413-8e1e894bc068",
+      "csiCode": "23 34 33"
+    },
+    {
+      "id": "60b323a2-cc25-421d-822f-c3bc9a601b18",
+      "name": "Heating Boilers",
+      "description": "Heating Boilers",
+      "parentTypeId": "23000000-0000-0000-0000-000000000000",
+      "csiCode": "23 52 00"
+    },
+    {
+      "id": "cf90873b-90fc-487c-a307-1ccb20bc8688",
+      "name": "Electric Boilers",
+      "description": "Electric Boilers",
+      "parentTypeId": "60b323a2-cc25-421d-822f-c3bc9a601b18",
+      "csiCode": "23 52 13"
+    },
+    {
+      "id": "a8f2e2f0-870a-494f-86ad-900740254871",
+      "name": "Condensing Boilers",
+      "description": "Condensing Boilers",
+      "parentTypeId": "60b323a2-cc25-421d-822f-c3bc9a601b18",
+      "csiCode": "23 52 16"
+    },
+    {
+      "id": "47e27221-a552-4e28-a1e8-7c8081b58e48",
+      "name": "Fire-Tube Boilers",
+      "description": "Fire-Tube Boilers",
+      "parentTypeId": "60b323a2-cc25-421d-822f-c3bc9a601b18",
+      "csiCode": "23 52 39"
+    },
+    {
+      "id": "dbb66217-3a12-415b-a997-f8422b942af0",
+      "name": "Heat Exchangers for HVAC",
+      "description": "Heat Exchangers for HVAC",
+      "parentTypeId": "23000000-0000-0000-0000-000000000000",
+      "csiCode": "23 57 00"
+    },
+    {
+      "id": "98c994d4-6fdb-4682-baa6-39afe9ac2c66",
+      "name": "Liquid-to-Liquid Heat Exchangers",
+      "description": "Liquid-to-Liquid Heat Exchangers",
+      "parentTypeId": "dbb66217-3a12-415b-a997-f8422b942af0",
+      "csiCode": "23 57 19"
+    },
+    {
+      "id": "cdb17b3f-5a0d-47b3-83c9-73770fca8777",
+      "name": "Plate-Type, Liquid-to-Liquid Heat Exchangers",
+      "description": "Plate-Type, Liquid-to-Liquid Heat Exchangers",
+      "parentTypeId": "98c994d4-6fdb-4682-baa6-39afe9ac2c66",
+      "csiCode": "23 57 19.13"
+    },
+    {
+      "id": "39c1bca5-e94f-4f2b-b3f7-7d0dcb6d922a",
+      "name": "Shell-Type, Liquid-to-Liquid Heat Exchangers",
+      "description": "Shell-Type, Liquid-to-Liquid Heat Exchangers",
+      "parentTypeId": "98c994d4-6fdb-4682-baa6-39afe9ac2c66",
+      "csiCode": "23 57 19.16"
+    },
+    {
+      "id": "376337dc-fee4-4321-ae1a-e99e490022f6",
+      "name": "Packaged Water Chillers",
+      "description": "Packaged Water Chillers",
+      "parentTypeId": "23000000-0000-0000-0000-000000000000",
+      "csiCode": "23 64 00"
+    },
+    {
+      "id": "2649813c-ba7d-4852-82b4-ff2987f4bc42",
+      "name": "Centrifugal Water Chillers",
+      "description": "Centrifugal Water Chillers",
+      "parentTypeId": "376337dc-fee4-4321-ae1a-e99e490022f6",
+      "csiCode": "23 64 16"
+    },
+    {
+      "id": "a582b495-0662-4d61-8049-848bec00cf9e",
+      "name": "Air-Cooled Centrifugal Water Chillers",
+      "description": "Air-Cooled Centrifugal Water Chillers",
+      "parentTypeId": "2649813c-ba7d-4852-82b4-ff2987f4bc42",
+      "csiCode": "23 64 16.13"
+    },
+    {
+      "id": "e34279c3-9ba4-4468-ac00-5091bbcf804a",
+      "name": "Water-Cooled Centrifugal Water Chillers",
+      "description": "Water-Cooled Centrifugal Water Chillers",
+      "parentTypeId": "2649813c-ba7d-4852-82b4-ff2987f4bc42",
+      "csiCode": "23 64 16.16"
+    },
+    {
+      "id": "4a5d9b70-531a-48a5-8d2b-e032b1e46d99",
+      "name": "Reciprocating Water Chillers",
+      "description": "Reciprocating Water Chillers",
+      "parentTypeId": "376337dc-fee4-4321-ae1a-e99e490022f6",
+      "csiCode": "23 64 19"
+    },
+    {
+      "id": "7d9fda7c-2d54-4d03-b45c-98e133e4e146",
+      "name": "Scroll Water Chillers",
+      "description": "Scroll Water Chillers",
+      "parentTypeId": "376337dc-fee4-4321-ae1a-e99e490022f6",
+      "csiCode": "23 64 23"
+    },
+    {
+      "id": "8dc47e93-c770-4f94-881e-d3d106bb06de",
+      "name": "Air-Cooled Scroll Water Chillers",
+      "description": "Air-Cooled Scroll Water Chillers",
+      "parentTypeId": "7d9fda7c-2d54-4d03-b45c-98e133e4e146",
+      "csiCode": "23 64 23.13"
+    },
+    {
+      "id": "1cc2ceb1-9962-43ba-b889-b2c7bceac371",
+      "name": "Water-Cooled Scroll Water Chillers",
+      "description": "Water-Cooled Scroll Water Chillers",
+      "parentTypeId": "7d9fda7c-2d54-4d03-b45c-98e133e4e146",
+      "csiCode": "23 64 23.16"
+    },
+    {
+        "id": "edc48f49-e2f6-43e0-9881-b94c26562ff4",
+        "name": "Rotary-Screw Water Chillers",
+        "description": "Rotary-Screw Water Chillers",
+        "parentTypeId": "376337dc-fee4-4321-ae1a-e99e490022f6",
+        "csiCode": "23 64 26"
+      },
+      {
+        "id": "35fba7ff-a70d-439e-a8f1-feab6f7c4a6e",
+        "name": "Air-Cooled, Rotary-Screw Water Chillers",
+        "description": "Air-Cooled, Rotary-Screw Water Chillers",
+        "parentTypeId": "edc48f49-e2f6-43e0-9881-b94c26562ff4",
+        "csiCode": "23 64 26.13"
+      },
+      {
+        "id": "cb6d3c36-7699-4389-b764-820d40ec5555",
+        "name": "Water-Cooled, Rotary-Screw Water Chillers",
+        "description": "Water-Cooled, Rotary-Screw Water Chillers",
+        "parentTypeId": "edc48f49-e2f6-43e0-9881-b94c26562ff4",
+        "csiCode": "23 64 26.16"
+      },
+      {
+        "id": "12285a84-0982-4a6c-a513-3765c594ff5a",
+        "name": "Modular Water Chillers",
+        "description": "Modular Water Chillers",
+        "parentTypeId": "376337dc-fee4-4321-ae1a-e99e490022f6",
+        "csiCode": "23 64 33"
+      },
+      {
+        "id": "ea8a7fb8-9f1e-4d8c-bde7-b67521b51aea",
+        "name": "Air-Cooled, Modular Water Chillers",
+        "description": "Air-Cooled, Modular Water Chillers",
+        "parentTypeId": "12285a84-0982-4a6c-a513-3765c594ff5a",
+        "csiCode": "23 64 33.13"
+      },
+      {
+        "id": "3af93ebf-1185-46cc-9922-c69eead0f066",
+        "name": "Water-Cooled, Modular Water Chillers",
+        "description": "Water-Cooled, Modular Water Chillers",
+        "parentTypeId": "12285a84-0982-4a6c-a513-3765c594ff5a",
+        "csiCode": "23 64 33.16"
+      },
+      {
+        "id": "ddf4a924-9c1c-46f2-aef7-172d3dfebef9",
+        "name": "Cooling Towers",
+        "description": "Cooling Towers",
+        "parentTypeId": "23000000-0000-0000-0000-000000000000",
+        "csiCode": "23 65 00"
+      },
+      {
+        "id": "9ee41e42-2d7c-4e12-8180-d031625fa70a",
+        "name": "Forced-Draft Cooling Towers",
+        "description": "Forced-Draft Cooling Towers",
+        "parentTypeId": "ddf4a924-9c1c-46f2-aef7-172d3dfebef9",
+        "csiCode": "23 65 13"
+      },
+      {
+        "id": "06281014-7893-4a11-93f5-a1274a46d7dc",
+        "name": "Open-Circuit, Forced-Draft Cooling Towers",
+        "description": "Open-Circuit, Forced-Draft Cooling Towers",
+        "parentTypeId": "9ee41e42-2d7c-4e12-8180-d031625fa70a",
+        "csiCode": "23 65 13.13"
+      },
+      {
+        "id": "3f4f28d0-b89e-44d4-a324-5bf4418f7bff",
+        "name": "Closed-Circuit, Forced-Draft Cooling Towers",
+        "description": "Closed-Circuit, Forced-Draft Cooling Towers",
+        "parentTypeId": "9ee41e42-2d7c-4e12-8180-d031625fa70a",
+        "csiCode": "23 65 13.16"
+      },
+      {
+        "id": "ad0cfb9a-6fe3-4549-a41d-f1bb24b6ca03",
+        "name": "Induced-Draft Cooling Towers",
+        "description": "Induced-Draft Cooling Towers",
+        "parentTypeId": "ddf4a924-9c1c-46f2-aef7-172d3dfebef9",
+        "csiCode": "23 65 14"
+      },
+      {
+        "id": "ece9439f-7156-4927-a396-7a87a8ff8d64",
+        "name": "Open-Circuit, Induced-Draft Counterflow Cooling Towers",
+        "description": "Open-Circuit, Induced-Draft Counterflow Cooling Towers",
+        "parentTypeId": "ad0cfb9a-6fe3-4549-a41d-f1bb24b6ca03",
+        "csiCode": "23 65 14.13"
+      },
+      {
+        "id": "b135c834-fa4c-4ace-a1ed-9a47afab8906",
+        "name": "Open-Circuit, Induced-Draft Crossflow Cooling Towers",
+        "description": "Open-Circuit, Induced-Draft Crossflow Cooling Towers",
+        "parentTypeId": "ad0cfb9a-6fe3-4549-a41d-f1bb24b6ca03",
+        "csiCode": "23 65 14.14"
+      },
+      {
+        "id": "a433ebd6-5dd7-4c2d-b903-83263aa4ba4c",
+        "name": "Closed-Circuit, Induced-Draft Counterflow Cooling Towers",
+        "description": "Closed-Circuit, Induced-Draft Counterflow Cooling Towers",
+        "parentTypeId": "ad0cfb9a-6fe3-4549-a41d-f1bb24b6ca03",
+        "csiCode": "23 65 14.16"
+      },
+      {
+        "id": "ec16caf1-d7ac-4cd3-b68d-f64da61c471a",
+        "name": "Closed-Circuit, Induced-Draft Combined-Flow Cooling Towers",
+        "description": "Closed-Circuit, Induced-Draft Combined-Flow Cooling Towers",
+        "parentTypeId": "ad0cfb9a-6fe3-4549-a41d-f1bb24b6ca03",
+        "csiCode": "23 65 14.17"
+      },
+      {
+        "id": "fade5d3d-bd7c-4c73-a4b5-05f562184563",
+        "name": "Natural-Draft Cooling Towers",
+        "description": "Natural-Draft Cooling Towers",
+        "parentTypeId": "ddf4a924-9c1c-46f2-aef7-172d3dfebef9",
+        "csiCode": "23 65 16"
+      },
+      {
+        "id": "048f79c7-8a2d-45d8-b693-f27ce9aed82f",
+        "name": "Field-Erected Cooling Towers",
+        "description": "Field-Erected Cooling Towers",
+        "parentTypeId": "ddf4a924-9c1c-46f2-aef7-172d3dfebef9",
+        "csiCode": "23 65 23"
+      },
+      {
+        "id": "780321a5-6318-4c02-9503-e27f1ecf33df",
+        "name": "Liquid Coolers",
+        "description": "Liquid Coolers",
+        "parentTypeId": "ddf4a924-9c1c-46f2-aef7-172d3dfebef9",
+        "csiCode": "23 65 33"
+      },
+      {
+        "id": "e2c6a92a-d155-49c2-9344-099111825947",
+        "name": "Indoor Central-Station Air-Handling Units",
+        "description": "Indoor Central-Station Air-Handling Units",
+        "parentTypeId": "23000000-0000-0000-0000-000000000000",
+        "csiCode": "23 73 00"
+      },
+      {
+        "id": "f945913d-349a-4962-8f65-2e29e6864ecf",
+        "name": "Indoor Central AHUs Modular",
+        "description": "Indoor Central AHUs Modular",
+        "parentTypeId": "e2c6a92a-d155-49c2-9344-099111825947",
+        "csiCode": "23 73 13"
+      },
+      {
+        "id": "23731400-0000-0000-0000-000000000000",
+        "name": "Custom Indoor AHUs",
+        "description": "Custom Indoor Air Handling Units",
+        "parentTypeId": "e2c6a92a-d155-49c2-9344-099111825947",
+        "csiCode": "23 73 14"
+      },
+      {
+        "id": "23731500-0000-0000-0000-000000000000",
+        "name": "Factory-Fabricated Air-Handling Units",
+        "description": "Factory-Fabricated Air-Handling Units",
+        "parentTypeId": "e2c6a92a-d155-49c2-9344-099111825947",
+        "csiCode": "23 73 15"
+      },
+      {
+        "id": "5709e575-3973-4c17-9dd1-6fc5767dd0d9",
+        "name": "Packaged Outdoor HVAC Equipment",
+        "description": "Packaged Outdoor HVAC Equipment",
+        "parentTypeId": "23000000-0000-0000-0000-000000000000",
+        "csiCode": "23 74 00"
+      },
+      {
+        "id": "3529bc33-825b-4057-979c-2c06cf21a8ea",
+        "name": "Packaged Outdoor Central Station AHUs",
+        "description": "Packaged Outdoor Central Station AHUs",
+        "parentTypeId": "5709e575-3973-4c17-9dd1-6fc5767dd0d9",
+        "csiCode": "23 74 15"
+      },
+      {
+        "id": "c9f534b8-3836-487c-b8c4-6faa10e0b1f2",
+        "name": "Packaged Rooftop Air-Conditioning Units",
+        "description": "Packaged Rooftop Air-Conditioning Units",
+        "parentTypeId": "5709e575-3973-4c17-9dd1-6fc5767dd0d9",
+        "csiCode": "23 74 16"
+      },
+      {
+        "id": "4bc17faf-7c15-41f7-86b0-76e2f7c5c64d",
+        "name": "Packaged, Outdoor, Heating-Only Makeup-Air Units",
+        "description": "Packaged, Outdoor, Heating-Only Makeup-Air Units",
+        "parentTypeId": "5709e575-3973-4c17-9dd1-6fc5767dd0d9",
+        "csiCode": "23 74 23"
+      },
+      {
+        "id": "d19f3f23-ff8d-4796-8707-88d0507ffc8f",
+        "name": "Dedicated Outdoor-Air Units",
+        "description": "Dedicated Outdoor-Air Units",
+        "parentTypeId": "5709e575-3973-4c17-9dd1-6fc5767dd0d9",
+        "csiCode": "23 74 33"
+      },
+      {
+        "id": "56ac6825-1e54-46c7-a84e-33b8ebd57530",
+        "name": "Custom-Packaged Outdoor HVAC Equipment",
+        "description": "Custom-Packaged Outdoor HVAC Equipment",
+        "parentTypeId": "23000000-0000-0000-0000-000000000000",
+        "csiCode": "23 75 00"
+      },
+      {
+        "id": "862143ce-9ac0-420c-b6a0-50e81a72b2bf",
+        "name": "Custom Packaged Rooftop AC Unit",
+        "description": "Custom Packaged Rooftop AC Unit",
+        "parentTypeId": "56ac6825-1e54-46c7-a84e-33b8ebd57530",
+        "csiCode": "23 75 16"
+      },
+      {
+        "id": "23300000-0000-0000-0000-000000000000",
+        "name": "HVAC Air Distribution",
+        "description": "HVAC Air Distribution Systems",
+        "parentTypeId": "23000000-0000-0000-0000-000000000000",
+        "csiCode": "23 30 00"
+      },
+      {
+        "id": "23310000-0000-0000-0000-000000000000",
+        "name": "HVAC Ducts and Casings",
+        "description": "Ductwork Systems",
+        "parentTypeId": "23300000-0000-0000-0000-000000000000",
+        "csiCode": "23 31 00"
+      },
+      {
+        "id": "23311300-0000-0000-0000-000000000000",
+        "name": "Metal Ducts",
+        "description": "Metal Ductwork Systems",
+        "parentTypeId": "23310000-0000-0000-0000-000000000000",
+        "csiCode": "23 31 13"
+      },
+      {
+        "id": "23311313-0000-0000-0000-000000000000",
+        "name": "Low-Pressure Metal Ducts",
+        "description": "Low-Pressure Metal Ductwork",
+        "parentTypeId": "23311300-0000-0000-0000-000000000000",
+        "csiCode": "23 31 13.13"
+      },
+      {
+        "id": "23311316-0000-0000-0000-000000000000",
+        "name": "High-Pressure Metal Ducts",
+        "description": "High-Pressure Metal Ductwork",
+        "parentTypeId": "23311300-0000-0000-0000-000000000000",
+        "csiCode": "23 31 13.16"
+      },
+      {
+        "id": "23311319-0000-0000-0000-000000000000",
+        "name": "Fabricated Double-Wall Metal Ducts",
+        "description": "Double-Wall Metal Ductwork",
+        "parentTypeId": "23311300-0000-0000-0000-000000000000",
+        "csiCode": "23 31 13.19"
+      },
+      {
+        "id": "23330000-0000-0000-0000-000000000000",
+        "name": "Air Duct Accessories",
+        "description": "Duct System Components",
+        "parentTypeId": "23300000-0000-0000-0000-000000000000",
+        "csiCode": "23 33 00"
+      },
+      {
+        "id": "23333000-0000-0000-0000-000000000000",
+        "name": "Air Duct Accessories",
+        "description": "Duct Components",
+        "parentTypeId": "23330000-0000-0000-0000-000000000000",
+        "csiCode": "23 33 30"
+      },
+      {
+        "id": "23333300-0000-0000-0000-000000000000",
+        "name": "Duct Mounted Access Doors",
+        "description": "Duct Access Doors",
+        "parentTypeId": "23333000-0000-0000-0000-000000000000",
+        "csiCode": "23 33 33"
+      },
+      {
+        "id": "23333600-0000-0000-0000-000000000000",
+        "name": "Flexible Duct Connectors",
+        "description": "Flexible Connections",
+        "parentTypeId": "23333000-0000-0000-0000-000000000000",
+        "csiCode": "23 33 36"
+      },
+      {
+        "id": "23334000-0000-0000-0000-000000000000",
+        "name": "HVAC Fans",
+        "description": "Fan Systems",
+        "parentTypeId": "23300000-0000-0000-0000-000000000000",
+        "csiCode": "23 34 00"
+      },
+      {
+        "id": "23334100-0000-0000-0000-000000000000",
+        "name": "High-Volume, Low-Speed Fans",
+        "description": "HVLS Fan Systems",
+        "parentTypeId": "23334000-0000-0000-0000-000000000000",
+        "csiCode": "23 34 10"
+      },
+      {
+        "id": "23360000-0000-0000-0000-000000000000",
+        "name": "Air Terminal Units",
+        "description": "Terminal Units",
+        "parentTypeId": "23300000-0000-0000-0000-000000000000",
+        "csiCode": "23 36 00"
+      },
+      {
+        "id": "23361300-0000-0000-0000-000000000000",
+        "name": "Variable-Air-Volume Terminal Units",
+        "description": "VAV Terminal Units",
+        "parentTypeId": "23360000-0000-0000-0000-000000000000",
+        "csiCode": "23 36 13"
+      },
+      {
+        "id": "23361313-0000-0000-0000-000000000000",
+        "name": "Single-Duct VAV Terminal Units",
+        "description": "Single-Duct VAV Boxes",
+        "parentTypeId": "23361300-0000-0000-0000-000000000000",
+        "csiCode": "23 36 13.13"
+      },
+      {
+        "id": "23361316-0000-0000-0000-000000000000",
+        "name": "Dual-Duct VAV Terminal Units",
+        "description": "Dual-Duct VAV Boxes",
+        "parentTypeId": "23361300-0000-0000-0000-000000000000",
+        "csiCode": "23 36 13.16"
+      },
+      {
+        "id": "23361319-0000-0000-0000-000000000000",
+        "name": "Fan-Powered VAV Terminal Units",
+        "description": "Fan-Powered VAV Boxes",
+        "parentTypeId": "23361300-0000-0000-0000-000000000000",
+        "csiCode": "23 36 13.19"
+      },
+      {
+        "id": "23370000-0000-0000-0000-000000000000",
+        "name": "Air Outlets and Inlets",
+        "description": "Air Distribution Devices",
+        "parentTypeId": "23300000-0000-0000-0000-000000000000",
+        "csiCode": "23 37 00"
+      },
+      {
+        "id": "23371300-0000-0000-0000-000000000000",
+        "name": "Diffusers, Registers, and Grilles",
+        "description": "Air Distribution Outlets",
+        "parentTypeId": "23370000-0000-0000-0000-000000000000",
+        "csiCode": "23 37 13"
+      },
+      {
+        "id": "23371313-0000-0000-0000-000000000000",
+        "name": "Ceiling Diffusers",
+        "description": "Ceiling-Mounted Air Diffusers",
+        "parentTypeId": "23371300-0000-0000-0000-000000000000",
+        "csiCode": "23 37 13.13"
+      },
+      {
+        "id": "23371316-0000-0000-0000-000000000000",
+        "name": "Wall Registers and Grilles",
+        "description": "Wall-Mounted Air Devices",
+        "parentTypeId": "23371300-0000-0000-0000-000000000000",
+        "csiCode": "23 37 13.16"
+      },
+      {
+        "id": "23371319-0000-0000-0000-000000000000",
+        "name": "Floor Registers and Grilles",
+        "description": "Floor-Mounted Air Devices",
+        "parentTypeId": "23371300-0000-0000-0000-000000000000",
+        "csiCode": "23 37 13.19"
+      },
+      {
+        "id": "23372300-0000-0000-0000-000000000000",
+        "name": "HVAC Gravity Ventilators",
+        "description": "Gravity Ventilation Systems",
+        "parentTypeId": "23370000-0000-0000-0000-000000000000",
+        "csiCode": "23 37 23"
+      },
+      {
+        "id": "23380000-0000-0000-0000-000000000000",
+        "name": "Ventilation Hoods",
+        "description": "Ventilation Hood Systems",
+        "parentTypeId": "23300000-0000-0000-0000-000000000000",
+        "csiCode": "23 38 00"
+      },
+      {
+        "id": "23381300-0000-0000-0000-000000000000",
+        "name": "Kitchen Hoods",
+        "description": "Commercial Kitchen Ventilation",
+        "parentTypeId": "23380000-0000-0000-0000-000000000000",
+        "csiCode": "23 38 13"
+      },
+      {
+        "id": "23381600-0000-0000-0000-000000000000",
+        "name": "Laboratory Hoods",
+        "description": "Laboratory Ventilation",
+        "parentTypeId": "23380000-0000-0000-0000-000000000000",
+        "csiCode": "23 38 16"
+      },
+      {
+        "id": "23400000-0000-0000-0000-000000000000",
+        "name": "HVAC Air Cleaning Devices",
+        "description": "Air Filtration and Cleaning Systems",
+        "parentTypeId": "23000000-0000-0000-0000-000000000000",
+        "csiCode": "23 40 00"
+      },
+      {
+        "id": "23410000-0000-0000-0000-000000000000",
+        "name": "Particulate Air Filtration",
+        "description": "Particulate Filtration Systems",
+        "parentTypeId": "23400000-0000-0000-0000-000000000000",
+        "csiCode": "23 41 00"
+      },
+      {
+        "id": "23411300-0000-0000-0000-000000000000",
+        "name": "Panel Air Filters",
+        "description": "Panel Filter Systems",
+        "parentTypeId": "23410000-0000-0000-0000-000000000000",
+        "csiCode": "23 41 13"
+      },
+      {
+        "id": "23411600-0000-0000-0000-000000000000",
+        "name": "Bag Air Filters",
+        "description": "Bag Filter Systems",
+        "parentTypeId": "23410000-0000-0000-0000-000000000000",
+        "csiCode": "23 41 16"
+      },
+      {
+        "id": "23411900-0000-0000-0000-000000000000",
+        "name": "HEPA Air Filters",
+        "description": "HEPA Filtration Systems",
+        "parentTypeId": "23410000-0000-0000-0000-000000000000",
+        "csiCode": "23 41 19"
+      },
+      {
+        "id": "23420000-0000-0000-0000-000000000000",
+        "name": "Gas-Phase Air Filtration",
+        "description": "Gas-Phase Filtration Systems",
+        "parentTypeId": "23400000-0000-0000-0000-000000000000",
+        "csiCode": "23 42 00"
+      },
+      {
+        "id": "23421300-0000-0000-0000-000000000000",
+        "name": "Carbon Filters",
+        "description": "Carbon Filtration Systems",
+        "parentTypeId": "23420000-0000-0000-0000-000000000000",
+        "csiCode": "23 42 13"
+      },
+      {
+        "id": "23421600-0000-0000-0000-000000000000",
+        "name": "Chemical Filters",
+        "description": "Chemical Filtration Systems",
+        "parentTypeId": "23420000-0000-0000-0000-000000000000",
+        "csiCode": "23 42 16"
+      },
+      {
+        "id": "23430000-0000-0000-0000-000000000000",
+        "name": "Electronic Air Cleaners",
+        "description": "Electronic Air Cleaning Systems",
+        "parentTypeId": "23400000-0000-0000-0000-000000000000",
+        "csiCode": "23 43 00"
+      },
+      {
+        "id": "23431300-0000-0000-0000-000000000000",
+        "name": "Electronic Air Ionizers",
+        "description": "Air Ionization Systems",
+        "parentTypeId": "23430000-0000-0000-0000-000000000000",
+        "csiCode": "23 43 13"
+      },
+      {
+        "id": "23431600-0000-0000-0000-000000000000",
+        "name": "UV-C Air Treatment Systems",
+        "description": "UV Air Treatment Systems",
+        "parentTypeId": "23430000-0000-0000-0000-000000000000",
+        "csiCode": "23 43 16"
+      },
+      {
+        "id": "23440000-0000-0000-0000-000000000000",
+        "name": "Advanced Air Treatment Systems",
+        "description": "Advanced Air Treatment",
+        "parentTypeId": "23400000-0000-0000-0000-000000000000",
+        "csiCode": "23 44 00"
+      },
+      {
+        "id": "23441300-0000-0000-0000-000000000000",
+        "name": "Photocatalytic Oxidation Systems",
+        "description": "PCO Air Treatment",
+        "parentTypeId": "23440000-0000-0000-0000-000000000000",
+        "csiCode": "23 44 13"
+      },
+      {
+        "id": "23441600-0000-0000-0000-000000000000",
+        "name": "Bipolar Ionization Systems",
+        "description": "BPI Air Treatment",
+        "parentTypeId": "23440000-0000-0000-0000-000000000000",
+        "csiCode": "23 44 16"
+      },
+      {
+        "id": "23700000-0000-0000-0000-000000000000",
+        "name": "Central HVAC Equipment",
+        "description": "Central HVAC Systems",
+        "parentTypeId": "23000000-0000-0000-0000-000000000000",
+        "csiCode": "23 70 00"
+      },
+      {
+        "id": "23720000-0000-0000-0000-000000000000",
+        "name": "Air-to-Air Energy Recovery Equipment",
+        "description": "Energy Recovery Systems",
+        "parentTypeId": "23700000-0000-0000-0000-000000000000",
+        "csiCode": "23 72 00"
+      },
+      {
+        "id": "23721300-0000-0000-0000-000000000000",
+        "name": "Fixed-Plate Air-to-Air Heat Exchangers",
+        "description": "Plate Heat Exchangers",
+        "parentTypeId": "23720000-0000-0000-0000-000000000000",
+        "csiCode": "23 72 13"
+      },
+      {
+        "id": "23721600-0000-0000-0000-000000000000",
+        "name": "Heat Wheels",
+        "description": "Rotary Heat Exchangers",
+        "parentTypeId": "23720000-0000-0000-0000-000000000000",
+        "csiCode": "23 72 16"
+      },
+      {
+        "id": "23721900-0000-0000-0000-000000000000",
+        "name": "Heat Pipes",
+        "description": "Heat Pipe Systems",
+        "parentTypeId": "23720000-0000-0000-0000-000000000000",
+        "csiCode": "23 72 19"
+      },
+      {
+        "id": "23722300-0000-0000-0000-000000000000",
+        "name": "Run-Around Energy Recovery Systems",
+        "description": "Run-Around Systems",
+        "parentTypeId": "23720000-0000-0000-0000-000000000000",
+        "csiCode": "23 72 23"
+      },
+      {
+        "id": "23730000-0000-0000-0000-000000000000",
+        "name": "DOAS Equipment",
+        "description": "Dedicated Outdoor Air Systems",
+        "parentTypeId": "23700000-0000-0000-0000-000000000000",
+        "csiCode": "23 73 00"
+      },
+      {
+        "id": "23731300-0000-0000-0000-000000000000",
+        "name": "Standard DOAS Units",
+        "description": "Basic DOAS Systems",
+        "parentTypeId": "23730000-0000-0000-0000-000000000000",
+        "csiCode": "23 73 13"
+      },
+      {
+        "id": "23731600-0000-0000-0000-000000000000",
+        "name": "High-Performance DOAS Units",
+        "description": "Advanced DOAS Systems",
+        "parentTypeId": "23730000-0000-0000-0000-000000000000",
+        "csiCode": "23 73 16"
+      },
+      {
+        "id": "23731900-0000-0000-0000-000000000000",
+        "name": "DOAS with Energy Recovery",
+        "description": "Energy Recovery DOAS",
+        "parentTypeId": "23730000-0000-0000-0000-000000000000",
+        "csiCode": "23 73 19"
+      },
+      {
+        "id": "23732300-0000-0000-0000-000000000000",
+        "name": "VAV DOAS Units",
+        "description": "Variable Air Volume DOAS",
+        "parentTypeId": "23730000-0000-0000-0000-000000000000",
+        "csiCode": "23 73 23"
+      },
+      {
+        "id": "23732600-0000-0000-0000-000000000000",
+        "name": "Heat Pump DOAS Units",
+        "description": "Heat Pump Based DOAS",
+        "parentTypeId": "23730000-0000-0000-0000-000000000000",
+        "csiCode": "23 73 26"
+      },
+      {
+        "id": "23810000-0000-0000-0000-000000000000",
+        "name": "Decentralized HVAC Equipment",
+        "description": "Decentralized HVAC Systems",
+        "parentTypeId": "23000000-0000-0000-0000-000000000000",
+        "csiCode": "23 81 00"
+      },
+      {
+        "id": "23812900-0000-0000-0000-000000000000",
+        "name": "Variable Refrigerant Flow Systems",
+        "description": "VRF/VRV Systems",
+        "parentTypeId": "23810000-0000-0000-0000-000000000000",
+        "csiCode": "23 81 29"
+      },
+      {
+        "id": "23812913-0000-0000-0000-000000000000",
+        "name": "VRF Outdoor Units",
+        "description": "VRF Condensing Units",
+        "parentTypeId": "23812900-0000-0000-0000-000000000000",
+        "csiCode": "23 81 29.13"
+      },
+      {
+        "id": "23812916-0000-0000-0000-000000000000",
+        "name": "VRF Indoor Units - Ducted",
+        "description": "Ducted VRF Indoor Units",
+        "parentTypeId": "23812900-0000-0000-0000-000000000000",
+        "csiCode": "23 81 29.16"
+      },
+      {
+        "id": "23812919-0000-0000-0000-000000000000",
+        "name": "VRF Indoor Units - Ductless",
+        "description": "Ductless VRF Indoor Units",
+        "parentTypeId": "23812900-0000-0000-0000-000000000000",
+        "csiCode": "23 81 29.19"
+      },
+      {
+        "id": "23812923-0000-0000-0000-000000000000",
+        "name": "VRF Branch Selectors",
+        "description": "VRF Branch Circuit Controllers",
+        "parentTypeId": "23812900-0000-0000-0000-000000000000",
+        "csiCode": "23 81 29.23"
+      },
+      {
+        "id": "23812926-0000-0000-0000-000000000000",
+        "name": "VRF Heat Recovery Units",
+        "description": "VRF Heat Recovery Components",
+        "parentTypeId": "23812900-0000-0000-0000-000000000000",
+        "csiCode": "23 81 29.26"
+      },
+      {
+        "id": "23812929-0000-0000-0000-000000000000",
+        "name": "VRF Control Systems",
+        "description": "VRF Control Components",
+        "parentTypeId": "23812900-0000-0000-0000-000000000000",
+        "csiCode": "23 81 29.29"
+      },
+      {
+        "id": "23813000-0000-0000-0000-000000000000",
+        "name": "Smart Building Integration Systems",
+        "description": "Building Systems Integration",
+        "parentTypeId": "23810000-0000-0000-0000-000000000000",
+        "csiCode": "23 81 30"
+      },
+      {
+        "id": "23813013-0000-0000-0000-000000000000",
+        "name": "IoT HVAC Controllers",
+        "description": "Internet-Connected HVAC Controls",
+        "parentTypeId": "23813000-0000-0000-0000-000000000000",
+        "csiCode": "23 81 30.13"
+      },
+      {
+        "id": "23813016-0000-0000-0000-000000000000",
+        "name": "Smart Thermostats",
+        "description": "Connected Thermostat Systems",
+        "parentTypeId": "23813000-0000-0000-0000-000000000000",
+        "csiCode": "23 81 30.16"
+      },
+      {
+        "id": "23813019-0000-0000-0000-000000000000",
+        "name": "Occupancy-Based Controls",
+        "description": "Occupancy Control Systems",
+        "parentTypeId": "23813000-0000-0000-0000-000000000000",
+        "csiCode": "23 81 30.19"
+      },
+      {
+        "id": "23813023-0000-0000-0000-000000000000",
+        "name": "Energy Management Platforms",
+        "description": "Energy Management Systems",
+        "parentTypeId": "23813000-0000-0000-0000-000000000000",
+        "csiCode": "23 81 30.23"
+      },
+      {
+        "id": "23814000-0000-0000-0000-000000000000",
+        "name": "Advanced Heat Pump Systems",
+        "description": "Modern Heat Pump Technologies",
+        "parentTypeId": "23810000-0000-0000-0000-000000000000",
+        "csiCode": "23 81 40"
+      },
+      {
+        "id": "23814300-0000-0000-0000-000000000000",
+        "name": "Air-Source Heat Pumps",
+        "description": "Air-Source Heat Pump Systems",
+        "parentTypeId": "23814000-0000-0000-0000-000000000000",
+        "csiCode": "23 81 43"
+      },
+      {
+        "id": "23814313-0000-0000-0000-000000000000",
+        "name": "Standard Air-Source Heat Pumps",
+        "description": "Conventional Air-Source Heat Pumps",
+        "parentTypeId": "23814300-0000-0000-0000-000000000000",
+        "csiCode": "23 81 43.13"
+      },
+      {
+        "id": "23814316-0000-0000-0000-000000000000",
+        "name": "Cold Climate Heat Pumps",
+        "description": "Low Temperature Heat Pumps",
+        "parentTypeId": "23814300-0000-0000-0000-000000000000",
+        "csiCode": "23 81 43.16"
+      },
+      {
+        "id": "23814600-0000-0000-0000-000000000000",
+        "name": "Water-Source Heat Pumps",
+        "description": "Water-Source Heat Pump Systems",
+        "parentTypeId": "23814000-0000-0000-0000-000000000000",
+        "csiCode": "23 81 46"
+      },
+      {
+        "id": "23814613-0000-0000-0000-000000000000",
+        "name": "Console Water-Source Heat Pumps",
+        "description": "Console WSHP Units",
+        "parentTypeId": "23814600-0000-0000-0000-000000000000",
+        "csiCode": "23 81 46.13"
+      },
+      {
+        "id": "23814616-0000-0000-0000-000000000000",
+        "name": "Vertical Stack Water-Source Heat Pumps",
+        "description": "Vertical WSHP Units",
+        "parentTypeId": "23814600-0000-0000-0000-000000000000",
+        "csiCode": "23 81 46.16"
+      },
+      {
+        "id": "23814900-0000-0000-0000-000000000000",
+        "name": "Ground-Source Heat Pumps",
+        "description": "Geothermal Heat Pump Systems",
+        "parentTypeId": "23814000-0000-0000-0000-000000000000",
+        "csiCode": "23 81 49"
+      },
+      {
+        "id": "23814913-0000-0000-0000-000000000000",
+        "name": "Closed Loop Ground-Source Heat Pumps",
+        "description": "Closed Loop Geothermal Systems",
+        "parentTypeId": "23814900-0000-0000-0000-000000000000",
+        "csiCode": "23 81 49.13"
+      },
+      {
+        "id": "23814916-0000-0000-0000-000000000000",
+        "name": "Open Loop Ground-Source Heat Pumps",
+        "description": "Open Loop Geothermal Systems",
+        "parentTypeId": "23814900-0000-0000-0000-000000000000",
+        "csiCode": "23 81 49.16"
+      },
+      {
+        "id": "23815000-0000-0000-0000-000000000000",
+        "name": "Heat Recovery Systems",
+        "description": "Heat Recovery Technologies",
+        "parentTypeId": "23810000-0000-0000-0000-000000000000",
+        "csiCode": "23 81 50"
+      },
+      {
+        "id": "23815300-0000-0000-0000-000000000000",
+        "name": "Water-Side Heat Recovery",
+        "description": "Water-Side Recovery Systems",
+        "parentTypeId": "23815000-0000-0000-0000-000000000000",
+        "csiCode": "23 81 53"
+      },
+      {
+        "id": "23815600-0000-0000-0000-000000000000",
+        "name": "Air-Side Heat Recovery",
+        "description": "Air-Side Recovery Systems",
+        "parentTypeId": "23815000-0000-0000-0000-000000000000",
+        "csiCode": "23 81 56"
+      },
+      {
+        "id": "23820000-0000-0000-0000-000000000000",
+        "name": "Terminal Heating and Cooling Units",
+        "description": "Terminal HVAC Units",
+        "parentTypeId": "23000000-0000-0000-0000-000000000000",
+        "csiCode": "23 82 00"
+      },
+      {
+        "id": "23821600-0000-0000-0000-000000000000",
+        "name": "Air Coils",
+        "description": "HVAC Coil Systems",
+        "parentTypeId": "23820000-0000-0000-0000-000000000000",
+        "csiCode": "23 82 16"
+      },
+      {
+        "id": "23821613-0000-0000-0000-000000000000",
+        "name": "DX Cooling Coils",
+        "description": "Direct Expansion Cooling Coils",
+        "parentTypeId": "23821600-0000-0000-0000-000000000000",
+        "csiCode": "23 82 16.13"
+      },
+      {
+        "id": "23821616-0000-0000-0000-000000000000",
+        "name": "Chilled Water Coils",
+        "description": "Chilled Water Cooling Coils",
+        "parentTypeId": "23821600-0000-0000-0000-000000000000",
+        "csiCode": "23 82 16.16"
+      },
+      {
+        "id": "23821619-0000-0000-0000-000000000000",
+        "name": "Hot Water Coils",
+        "description": "Hot Water Heating Coils",
+        "parentTypeId": "23821600-0000-0000-0000-000000000000",
+        "csiCode": "23 82 16.19"
+      },
+      {
+        "id": "23821623-0000-0000-0000-000000000000",
+        "name": "Steam Coils",
+        "description": "Steam Heating Coils",
+        "parentTypeId": "23821600-0000-0000-0000-000000000000",
+        "csiCode": "23 82 16.23"
+      },
+      {
+        "id": "23821900-0000-0000-0000-000000000000",
+        "name": "Fan Coil Units",
+        "description": "Fan Coil Systems",
+        "parentTypeId": "23820000-0000-0000-0000-000000000000",
+        "csiCode": "23 82 19"
+      },
+      {
+        "id": "23821913-0000-0000-0000-000000000000",
+        "name": "Horizontal Fan Coil Units",
+        "description": "Horizontal FCUs",
+        "parentTypeId": "23821900-0000-0000-0000-000000000000",
+        "csiCode": "23 82 19.13"
+      },
+      {
+        "id": "23821916-0000-0000-0000-000000000000",
+        "name": "Vertical Fan Coil Units",
+        "description": "Vertical FCUs",
+        "parentTypeId": "23821900-0000-0000-0000-000000000000",
+        "csiCode": "23 82 19.16"
+      },
+      {
+        "id": "23821919-0000-0000-0000-000000000000",
+        "name": "High-Wall Fan Coil Units",
+        "description": "Wall-Mounted FCUs",
+        "parentTypeId": "23821900-0000-0000-0000-000000000000",
+        "csiCode": "23 82 19.19"
+      },
+      {
+        "id": "23823900-0000-0000-0000-000000000000",
+        "name": "Unit Heaters",
+        "description": "Unit Heating Systems",
+        "parentTypeId": "23820000-0000-0000-0000-000000000000",
+        "csiCode": "23 82 39"
+      },
+      {
+        "id": "23823913-0000-0000-0000-000000000000",
+        "name": "Electric Unit Heaters",
+        "description": "Electric Heating Units",
+        "parentTypeId": "23823900-0000-0000-0000-000000000000",
+        "csiCode": "23 82 39.13"
+      },
+      {
+        "id": "23823916-0000-0000-0000-000000000000",
+        "name": "Hot Water Unit Heaters",
+        "description": "Hydronic Heating Units",
+        "parentTypeId": "23823900-0000-0000-0000-000000000000",
+        "csiCode": "23 82 39.16"
+      },
+      {
+        "id": "23823919-0000-0000-0000-000000000000",
+        "name": "Steam Unit Heaters",
+        "description": "Steam Heating Units",
+        "parentTypeId": "23823900-0000-0000-0000-000000000000",
+        "csiCode": "23 82 39.19"
+      },
+      {
+        "id": "23830000-0000-0000-0000-000000000000",
+        "name": "Radiant Heating Units",
+        "description": "Radiant Heating Systems",
+        "parentTypeId": "23000000-0000-0000-0000-000000000000",
+        "csiCode": "23 83 00"
+      },
+      {
+        "id": "23831300-0000-0000-0000-000000000000",
+        "name": "Radiant-Heating Electric Panels",
+        "description": "Electric Radiant Panels",
+        "parentTypeId": "23830000-0000-0000-0000-000000000000",
+        "csiCode": "23 83 13"
+      },
+      {
+        "id": "23831600-0000-0000-0000-000000000000",
+        "name": "Radiant-Heating Hydronic Piping",
+        "description": "Hydronic Radiant Systems",
+        "parentTypeId": "23830000-0000-0000-0000-000000000000",
+        "csiCode": "23 83 16"
+      },
+      {
+        "id": "23840000-0000-0000-0000-000000000000",
+        "name": "Humidity Control Equipment",
+        "description": "Humidity Management Systems",
+        "parentTypeId": "23000000-0000-0000-0000-000000000000",
+        "csiCode": "23 84 00"
+      },
+      {
+        "id": "23841300-0000-0000-0000-000000000000",
+        "name": "Humidifiers",
+        "description": "Humidification Systems",
+        "parentTypeId": "23840000-0000-0000-0000-000000000000",
+        "csiCode": "23 84 13"
+      },
+      {
+        "id": "23841313-0000-0000-0000-000000000000",
+        "name": "Steam Injection Humidifiers",
+        "description": "Steam Injection Systems",
+        "parentTypeId": "23841300-0000-0000-0000-000000000000",
+        "csiCode": "23 84 13.13"
+      },
+      {
+        "id": "23841316-0000-0000-0000-000000000000",
+        "name": "Ultrasonic Humidifiers",
+        "description": "Ultrasonic Humidification",
+        "parentTypeId": "23841300-0000-0000-0000-000000000000",
+        "csiCode": "23 84 13.16"
+      },
+      {
+        "id": "23841600-0000-0000-0000-000000000000",
+        "name": "Dehumidifiers",
+        "description": "Dehumidification Systems",
+        "parentTypeId": "23840000-0000-0000-0000-000000000000",
+        "csiCode": "23 84 16"
+      },
+      {
+        "id": "23841613-0000-0000-0000-000000000000",
+        "name": "Refrigerant Dehumidifiers",
+        "description": "DX Dehumidification",
+        "parentTypeId": "23841600-0000-0000-0000-000000000000",
+        "csiCode": "23 84 16.13"
+      },
+      {
+        "id": "23841616-0000-0000-0000-000000000000",
+        "name": "Desiccant Dehumidifiers",
+        "description": "Desiccant Dehumidification",
+        "parentTypeId": "23841600-0000-0000-0000-000000000000",
+        "csiCode": "23 84 16.16"
+      },
+      {
+        "id": "23850000-0000-0000-0000-000000000000",
+        "name": "Energy Storage Equipment",
+        "description": "Thermal Storage Systems",
+        "parentTypeId": "23000000-0000-0000-0000-000000000000",
+        "csiCode": "23 85 00"
+      },
+      {
+        "id": "23851300-0000-0000-0000-000000000000",
+        "name": "Ice Storage Systems",
+        "description": "Ice-Based Storage",
+        "parentTypeId": "23850000-0000-0000-0000-000000000000",
+        "csiCode": "23 85 13"
+      },
+      {
+        "id": "23851600-0000-0000-0000-000000000000",
+        "name": "Chilled Water Storage Systems",
+        "description": "Water-Based Storage",
+        "parentTypeId": "23850000-0000-0000-0000-000000000000",
+        "csiCode": "23 85 16"
+      },
+      {
+        "id": "23851900-0000-0000-0000-000000000000",
+        "name": "Phase Change Material Storage",
+        "description": "PCM Storage Systems",
+        "parentTypeId": "23850000-0000-0000-0000-000000000000",
+        "csiCode": "23 85 19"
+      },
+      {
+        "id": "26000000-0000-0000-0000-000000000000",
+        "name": "Electrical",
+        "description": "Electrical Systems",
+        "parentTypeId": null,
+        "csiCode": "26 00 00"
+      },
+      {
+        "id": "26100000-0000-0000-0000-000000000000",
+        "name": "Medium-Voltage Electrical Distribution",
+        "description": "Medium-Voltage Distribution Systems",
+        "parentTypeId": "26000000-0000-0000-0000-000000000000",
+        "csiCode": "26 10 00"
+      },
+      {
+        "id": "26110000-0000-0000-0000-000000000000",
+        "name": "Medium-Voltage Switchgear",
+        "description": "MV Switchgear Systems",
+        "parentTypeId": "26100000-0000-0000-0000-000000000000",
+        "csiCode": "26 11 00"
+      },
+      {
+        "id": "26111300-0000-0000-0000-000000000000",
+        "name": "Medium-Voltage Circuit Breaker Switchgear",
+        "description": "MV Circuit Breaker Switchgear",
+        "parentTypeId": "26110000-0000-0000-0000-000000000000",
+        "csiCode": "26 11 13"
+      },
+      {
+        "id": "26111600-0000-0000-0000-000000000000",
+        "name": "Medium-Voltage Fusible Switchgear",
+        "description": "MV Fusible Switchgear",
+        "parentTypeId": "26110000-0000-0000-0000-000000000000",
+        "csiCode": "26 11 16"
+      },
+      {
+        "id": "26120000-0000-0000-0000-000000000000",
+        "name": "Medium-Voltage Transformers",
+        "description": "MV Transformer Systems",
+        "parentTypeId": "26100000-0000-0000-0000-000000000000",
+        "csiCode": "26 12 00"
+      },
+      {
+        "id": "26121300-0000-0000-0000-000000000000",
+        "name": "Medium-Voltage Pad-Mounted Transformers",
+        "description": "MV Pad-Mounted Transformers",
+        "parentTypeId": "26120000-0000-0000-0000-000000000000",
+        "csiCode": "26 12 13"
+      },
+      {
+        "id": "26121600-0000-0000-0000-000000000000",
+        "name": "Medium-Voltage Substation Transformers",
+        "description": "MV Substation Transformers",
+        "parentTypeId": "26120000-0000-0000-0000-000000000000",
+        "csiCode": "26 12 16"
+      },
+      {
+        "id": "26200000-0000-0000-0000-000000000000",
+        "name": "Low-Voltage Electrical Distribution",
+        "description": "Low-Voltage Distribution Systems",
+        "parentTypeId": "26000000-0000-0000-0000-000000000000",
+        "csiCode": "26 20 00"
+      },
+      {
+        "id": "26220000-0000-0000-0000-000000000000",
+        "name": "Low-Voltage Transformers",
+        "description": "LV Transformer Systems",
+        "parentTypeId": "26200000-0000-0000-0000-000000000000",
+        "csiCode": "26 22 00"
+      },
+      {
+        "id": "26221300-0000-0000-0000-000000000000",
+        "name": "Low-Voltage Distribution Transformers",
+        "description": "LV Distribution Transformers",
+        "parentTypeId": "26220000-0000-0000-0000-000000000000",
+        "csiCode": "26 22 13"
+      },
+      {
+        "id": "26223000-0000-0000-0000-000000000000",
+        "name": "Low-Voltage K-Rated Transformers",
+        "description": "K-Rated Transformers",
+        "parentTypeId": "26220000-0000-0000-0000-000000000000",
+        "csiCode": "26 22 30"
+      },
+      {
+        "id": "26230000-0000-0000-0000-000000000000",
+        "name": "Low-Voltage Switchgear",
+        "description": "LV Switchgear Systems",
+        "parentTypeId": "26200000-0000-0000-0000-000000000000",
+        "csiCode": "26 23 00"
+      },
+      {
+        "id": "26231300-0000-0000-0000-000000000000",
+        "name": "Metal-Enclosed Switchgear",
+        "description": "Metal-Enclosed LV Switchgear",
+        "parentTypeId": "26230000-0000-0000-0000-000000000000",
+        "csiCode": "26 23 13"
+      },
+      {
+        "id": "26240000-0000-0000-0000-000000000000",
+        "name": "Switchboards",
+        "description": "Electrical Switchboards",
+        "parentTypeId": "26200000-0000-0000-0000-000000000000",
+        "csiCode": "26 24 00"
+      },
+      {
+        "id": "26241300-0000-0000-0000-000000000000",
+        "name": "Main Switchboards",
+        "description": "Main Distribution Switchboards",
+        "parentTypeId": "26240000-0000-0000-0000-000000000000",
+        "csiCode": "26 24 13"
+      },
+      {
+        "id": "26241600-0000-0000-0000-000000000000",
+        "name": "Panelboards",
+        "description": "Distribution Panelboards",
+        "parentTypeId": "26240000-0000-0000-0000-000000000000",
+        "csiCode": "26 24 16"
+      },
+      {
+        "id": "26241613-0000-0000-0000-000000000000",
+        "name": "Lighting and Appliance Panelboards",
+        "description": "Branch Circuit Panelboards",
+        "parentTypeId": "26241600-0000-0000-0000-000000000000",
+        "csiCode": "26 24 16.13"
+      },
+      {
+        "id": "26241616-0000-0000-0000-000000000000",
+        "name": "Distribution Panelboards",
+        "description": "Power Distribution Panels",
+        "parentTypeId": "26241600-0000-0000-0000-000000000000",
+        "csiCode": "26 24 16.16"
+      },
+      {
+        "id": "26250000-0000-0000-0000-000000000000",
+        "name": "Enclosed Bus Assemblies",
+        "description": "Busway Systems",
+        "parentTypeId": "26200000-0000-0000-0000-000000000000",
+        "csiCode": "26 25 00"
+      },
+      {
+        "id": "26251300-0000-0000-0000-000000000000",
+        "name": "Busway",
+        "description": "Electrical Busway Systems",
+        "parentTypeId": "26250000-0000-0000-0000-000000000000",
+        "csiCode": "26 25 13"
+      },
+      {
+        "id": "26270000-0000-0000-0000-000000000000",
+        "name": "Low-Voltage Distribution Equipment",
+        "description": "Distribution Equipment",
+        "parentTypeId": "26200000-0000-0000-0000-000000000000",
+        "csiCode": "26 27 00"
+      },
+      {
+        "id": "26271300-0000-0000-0000-000000000000",
+        "name": "Metering Equipment",
+        "description": "Power Metering Systems",
+        "parentTypeId": "26270000-0000-0000-0000-000000000000",
+        "csiCode": "26 27 13"
+      },
+      {
+        "id": "26280000-0000-0000-0000-000000000000",
+        "name": "Power Distribution Units",
+        "description": "PDU Systems",
+        "parentTypeId": "26200000-0000-0000-0000-000000000000",
+        "csiCode": "26 28 00"
+      },
+      {
+        "id": "26281300-0000-0000-0000-000000000000",
+        "name": "Floor-Mounted PDUs",
+        "description": "Floor PDU Systems",
+        "parentTypeId": "26280000-0000-0000-0000-000000000000",
+        "csiCode": "26 28 13"
+      },
+      {
+        "id": "26281600-0000-0000-0000-000000000000",
+        "name": "Rack-Mounted PDUs",
+        "description": "Rack PDU Systems",
+        "parentTypeId": "26280000-0000-0000-0000-000000000000",
+        "csiCode": "26 28 16"
+      },
+      {
+        "id": "26300000-0000-0000-0000-000000000000",
+        "name": "Facility Electrical Power Generating and Storing Equipment",
+        "description": "Power Generation and Storage",
+        "parentTypeId": "26000000-0000-0000-0000-000000000000",
+        "csiCode": "26 30 00"
+      },
+      {
+        "id": "26320000-0000-0000-0000-000000000000",
+        "name": "Power Generation Equipment",
+        "description": "Power Generation Systems",
+        "parentTypeId": "26300000-0000-0000-0000-000000000000",
+        "csiCode": "26 32 00"
+      },
+      {
+        "id": "26321300-0000-0000-0000-000000000000",
+        "name": "Engine Generators",
+        "description": "Generator Systems",
+        "parentTypeId": "26320000-0000-0000-0000-000000000000",
+        "csiCode": "26 32 13"
+      },
+      {
+        "id": "26321313-0000-0000-0000-000000000000",
+        "name": "Diesel Engine Generators",
+        "description": "Diesel Generator Systems",
+        "parentTypeId": "26321300-0000-0000-0000-000000000000",
+        "csiCode": "26 32 13.13"
+      },
+      {
+        "id": "26321316-0000-0000-0000-000000000000",
+        "name": "Natural Gas Engine Generators",
+        "description": "Gas Generator Systems",
+        "parentTypeId": "26321300-0000-0000-0000-000000000000",
+        "csiCode": "26 32 13.16"
+      },
+      {
+        "id": "26330000-0000-0000-0000-000000000000",
+        "name": "Battery Equipment",
+        "description": "Battery Systems",
+        "parentTypeId": "26300000-0000-0000-0000-000000000000",
+        "csiCode": "26 33 00"
+      },
+      {
+        "id": "26331300-0000-0000-0000-000000000000",
+        "name": "Battery Storage Equipment",
+        "description": "Battery Storage Systems",
+        "parentTypeId": "26330000-0000-0000-0000-000000000000",
+        "csiCode": "26 33 13"
+      },
+      {
+        "id": "26331313-0000-0000-0000-000000000000",
+        "name": "Lead Acid Batteries",
+        "description": "Lead Acid Battery Systems",
+        "parentTypeId": "26331300-0000-0000-0000-000000000000",
+        "csiCode": "26 33 13.13"
+      },
+      {
+        "id": "26331316-0000-0000-0000-000000000000",
+        "name": "Lithium-Ion Batteries",
+        "description": "Lithium Battery Systems",
+        "parentTypeId": "26331300-0000-0000-0000-000000000000",
+        "csiCode": "26 33 13.16"
+      },
+      {
+        "id": "26331500-0000-0000-0000-000000000000",
+        "name": "Battery Monitoring Systems",
+        "description": "Battery Monitoring Equipment",
+        "parentTypeId": "26330000-0000-0000-0000-000000000000",
+        "csiCode": "26 33 15"
+      },
+      {
+        "id": "26331600-0000-0000-0000-000000000000",
+        "name": "Battery Chargers",
+        "description": "Battery Charging Systems",
+        "parentTypeId": "26330000-0000-0000-0000-000000000000",
+        "csiCode": "26 33 16"
+      },
+      {
+        "id": "26334000-0000-0000-0000-000000000000",
+        "name": "Uninterruptible Power Supply",
+        "description": "UPS Systems",
+        "parentTypeId": "26330000-0000-0000-0000-000000000000",
+        "csiCode": "26 33 40"
+      },
+      {
+        "id": "26334100-0000-0000-0000-000000000000",
+        "name": "Central UPS Systems",
+        "description": "Centralized UPS",
+        "parentTypeId": "26334000-0000-0000-0000-000000000000",
+        "csiCode": "26 33 41"
+      },
+      {
+        "id": "26334113-0000-0000-0000-000000000000",
+        "name": "Single Module UPS",
+        "description": "Single UPS Systems",
+        "parentTypeId": "26334100-0000-0000-0000-000000000000",
+        "csiCode": "26 33 41.13"
+      },
+      {
+        "id": "26334116-0000-0000-0000-000000000000",
+        "name": "Parallel Module UPS",
+        "description": "Parallel UPS Systems",
+        "parentTypeId": "26334100-0000-0000-0000-000000000000",
+        "csiCode": "26 33 41.16"
+      },
+      {
+        "id": "26334200-0000-0000-0000-000000000000",
+        "name": "Distributed UPS Systems",
+        "description": "Distributed UPS",
+        "parentTypeId": "26334000-0000-0000-0000-000000000000",
+        "csiCode": "26 33 42"
+      },
+      {
+        "id": "26334213-0000-0000-0000-000000000000",
+        "name": "Rack-Mounted UPS",
+        "description": "Rack UPS Systems",
+        "parentTypeId": "26334200-0000-0000-0000-000000000000",
+        "csiCode": "26 33 42.13"
+      },
+      {
+        "id": "26334216-0000-0000-0000-000000000000",
+        "name": "Local UPS",
+        "description": "Local UPS Systems",
+        "parentTypeId": "26334200-0000-0000-0000-000000000000",
+        "csiCode": "26 33 42.16"
+      },
+      {
+        "id": "26334300-0000-0000-0000-000000000000",
+        "name": "Rotary UPS",
+        "description": "Rotary UPS Systems",
+        "parentTypeId": "26334000-0000-0000-0000-000000000000",
+        "csiCode": "26 33 43"
+      },
+      {
+        "id": "26360000-0000-0000-0000-000000000000",
+        "name": "Transfer Switches",
+        "description": "Power Transfer Equipment",
+        "parentTypeId": "26300000-0000-0000-0000-000000000000",
+        "csiCode": "26 36 00"
+      },
+      {
+        "id": "26361300-0000-0000-0000-000000000000",
+        "name": "Manual Transfer Switches",
+        "description": "Manual Transfer Equipment",
+        "parentTypeId": "26360000-0000-0000-0000-000000000000",
+        "csiCode": "26 36 13"
+      },
+      {
+        "id": "26362300-0000-0000-0000-000000000000",
+        "name": "Automatic Transfer Switches",
+        "description": "Automatic Transfer Equipment",
+        "parentTypeId": "26360000-0000-0000-0000-000000000000",
+        "csiCode": "26 36 23"
+      },
+      {
+        "id": "26362313-0000-0000-0000-000000000000",
+        "name": "Open Transition ATS",
+        "description": "Open Transition Transfer",
+        "parentTypeId": "26362300-0000-0000-0000-000000000000",
+        "csiCode": "26 36 23.13"
+      },
+      {
+        "id": "26362316-0000-0000-0000-000000000000",
+        "name": "Closed Transition ATS",
+        "description": "Closed Transition Transfer",
+        "parentTypeId": "26362300-0000-0000-0000-000000000000",
+        "csiCode": "26 36 23.16"
+      },
+      {
+        "id": "26362319-0000-0000-0000-000000000000",
+        "name": "Bypass Isolation ATS",
+        "description": "Bypass Transfer Systems",
+        "parentTypeId": "26362300-0000-0000-0000-000000000000",
+        "csiCode": "26 36 23.19"
+      },
+      {
+        "id": "26430000-0000-0000-0000-000000000000",
+        "name": "Power Quality Equipment",
+        "description": "Power Quality Systems",
+        "parentTypeId": "26000000-0000-0000-0000-000000000000",
+        "csiCode": "26 43 00"
+      },
+      {
+        "id": "26431300-0000-0000-0000-000000000000",
+        "name": "Surge Protection Devices",
+        "description": "SPD Systems",
+        "parentTypeId": "26430000-0000-0000-0000-000000000000",
+        "csiCode": "26 43 13"
+      },
+      {
+        "id": "26431313-0000-0000-0000-000000000000",
+        "name": "Facility SPDs",
+        "description": "Building-Wide Surge Protection",
+        "parentTypeId": "26431300-0000-0000-0000-000000000000",
+        "csiCode": "26 43 13.13"
+      },
+      {
+        "id": "26431316-0000-0000-0000-000000000000",
+        "name": "Distribution SPDs",
+        "description": "Distribution Level Protection",
+        "parentTypeId": "26431300-0000-0000-0000-000000000000",
+        "csiCode": "26 43 13.16"
+      },
+      {
+        "id": "26432000-0000-0000-0000-000000000000",
+        "name": "Harmonic Filters",
+        "description": "Harmonic Mitigation",
+        "parentTypeId": "26430000-0000-0000-0000-000000000000",
+        "csiCode": "26 43 20"
+      },
+      {
+        "id": "26432300-0000-0000-0000-000000000000",
+        "name": "Active Harmonic Filters",
+        "description": "Active Filtering Systems",
+        "parentTypeId": "26432000-0000-0000-0000-000000000000",
+        "csiCode": "26 43 23"
+      },
+      {
+        "id": "26432600-0000-0000-0000-000000000000",
+        "name": "Passive Harmonic Filters",
+        "description": "Passive Filtering Systems",
+        "parentTypeId": "26432000-0000-0000-0000-000000000000",
+        "csiCode": "26 43 26"
+      },
+      {
+        "id": "26433000-0000-0000-0000-000000000000",
+        "name": "Power Factor Correction",
+        "description": "PF Correction Equipment",
+        "parentTypeId": "26430000-0000-0000-0000-000000000000",
+        "csiCode": "26 43 30"
+      },
+      {
+        "id": "26433300-0000-0000-0000-000000000000",
+        "name": "Capacitor Banks",
+        "description": "PF Correction Capacitors",
+        "parentTypeId": "26433000-0000-0000-0000-000000000000",
+        "csiCode": "26 43 33"
+      },
+      {
+        "id": "26433600-0000-0000-0000-000000000000",
+        "name": "Active PF Correction",
+        "description": "Active PF Correction Systems",
+        "parentTypeId": "26433000-0000-0000-0000-000000000000",
+        "csiCode": "26 43 36"
+      },
+      {
+        "id": "26450000-0000-0000-0000-000000000000",
+        "name": "Power Monitoring and Control",
+        "description": "Monitoring Systems",
+        "parentTypeId": "26000000-0000-0000-0000-000000000000",
+        "csiCode": "26 45 00"
+      },
+      {
+        "id": "26451300-0000-0000-0000-000000000000",
+        "name": "Power Monitoring Devices",
+        "description": "Power Monitoring Equipment",
+        "parentTypeId": "26450000-0000-0000-0000-000000000000",
+        "csiCode": "26 45 13"
+      },
+      {
+        "id": "26451313-0000-0000-0000-000000000000",
+        "name": "Power Quality Meters",
+        "description": "PQ Monitoring Equipment",
+        "parentTypeId": "26451300-0000-0000-0000-000000000000",
+        "csiCode": "26 45 13.13"
+      },
+      {
+        "id": "26451316-0000-0000-0000-000000000000",
+        "name": "Branch Circuit Monitors",
+        "description": "Circuit Monitoring Devices",
+        "parentTypeId": "26451300-0000-0000-0000-000000000000",
+        "csiCode": "26 45 13.16"
+      },
+      {
+        "id": "26451319-0000-0000-0000-000000000000",
+        "name": "Environmental Monitors",
+        "description": "Environmental Monitoring",
+        "parentTypeId": "26451300-0000-0000-0000-000000000000",
+        "csiCode": "26 45 13.19"
+      },
+      {
+        "id": "26452000-0000-0000-0000-000000000000",
+        "name": "Power Management Software",
+        "description": "Management Systems",
+        "parentTypeId": "26450000-0000-0000-0000-000000000000",
+        "csiCode": "26 45 20"
+      },
+      {
+        "id": "26452300-0000-0000-0000-000000000000",
+        "name": "DCIM Software",
+        "description": "Data Center Infrastructure Management",
+        "parentTypeId": "26452000-0000-0000-0000-000000000000",
+        "csiCode": "26 45 23"
+      },
+      {
+        "id": "26452600-0000-0000-0000-000000000000",
+        "name": "Building Power Management",
+        "description": "Building Power Software",
+        "parentTypeId": "26452000-0000-0000-0000-000000000000",
+        "csiCode": "26 45 26"
+      },
+      {
+        "id": "26460000-0000-0000-0000-000000000000",
+        "name": "Data Center Power Infrastructure",
+        "description": "Data Center Power Systems",
+        "parentTypeId": "26000000-0000-0000-0000-000000000000",
+        "csiCode": "26 46 00"
+      },
+      {
+        "id": "26461300-0000-0000-0000-000000000000",
+        "name": "Busway Systems",
+        "description": "Data Center Busway",
+        "parentTypeId": "26460000-0000-0000-0000-000000000000",
+        "csiCode": "26 46 13"
+      },
+      {
+        "id": "26461313-0000-0000-0000-000000000000",
+        "name": "Overhead Busway",
+        "description": "Overhead Power Distribution",
+        "parentTypeId": "26461300-0000-0000-0000-000000000000",
+        "csiCode": "26 46 13.13"
+      },
+      {
+        "id": "26461316-0000-0000-0000-000000000000",
+        "name": "Under-Floor Busway",
+        "description": "Under-Floor Power Distribution",
+        "parentTypeId": "26461300-0000-0000-0000-000000000000",
+        "csiCode": "26 46 13.16"
+      },
+      {
+        "id": "26462000-0000-0000-0000-000000000000",
+        "name": "Power Distribution Units",
+        "description": "Data Center PDUs",
+        "parentTypeId": "26460000-0000-0000-0000-000000000000",
+        "csiCode": "26 46 20"
+      },
+      {
+        "id": "26462300-0000-0000-0000-000000000000",
+        "name": "Intelligent PDUs",
+        "description": "Smart PDU Systems",
+        "parentTypeId": "26462000-0000-0000-0000-000000000000",
+        "csiCode": "26 46 23"
+      },
+      {
+        "id": "26462600-0000-0000-0000-000000000000",
+        "name": "Basic PDUs",
+        "description": "Basic Power Distribution",
+        "parentTypeId": "26462000-0000-0000-0000-000000000000",
+        "csiCode": "26 46 26"
+      },
+      {
+        "id": "26462900-0000-0000-0000-000000000000",
+        "name": "Metered PDUs",
+        "description": "Metered Power Distribution",
+        "parentTypeId": "26462000-0000-0000-0000-000000000000",
+        "csiCode": "26 46 29"
+      },
+      {
+        "id": "26560000-0000-0000-0000-000000000000",
+        "name": "Grounding and Bonding",
+        "description": "Electrical Grounding Systems",
+        "parentTypeId": "26000000-0000-0000-0000-000000000000",
+        "csiCode": "26 56 00"
+      },
+      {
+        "id": "26561300-0000-0000-0000-000000000000",
+        "name": "Grounding Systems",
+        "description": "Building Grounding",
+        "parentTypeId": "26560000-0000-0000-0000-000000000000",
+        "csiCode": "26 56 13"
+      },
+      {
+        "id": "26561313-0000-0000-0000-000000000000",
+        "name": "Ground Bars",
+        "description": "Grounding Bars",
+        "parentTypeId": "26561300-0000-0000-0000-000000000000",
+        "csiCode": "26 56 13.13"
+      },
+      {
+        "id": "26561316-0000-0000-0000-000000000000",
+        "name": "Ground Grids",
+        "description": "Ground Grid Systems",
+        "parentTypeId": "26561300-0000-0000-0000-000000000000",
+        "csiCode": "26 56 13.16"
+      },
+      {
+        "id": "22000000-0000-0000-0000-000000000000",
+        "name": "Plumbing",
+        "description": "Plumbing Systems",
+        "parentTypeId": null,
+        "csiCode": "22 00 00"
+      },
+      {
+        "id": "22100000-0000-0000-0000-000000000000",
+        "name": "Plumbing Piping",
+        "description": "Facility Water Distribution",
+        "parentTypeId": "22000000-0000-0000-0000-000000000000",
+        "csiCode": "22 10 00"
+      },
+      {
+        "id": "22110000-0000-0000-0000-000000000000",
+        "name": "Domestic Water Distribution",
+        "description": "Facility Water Systems",
+        "parentTypeId": "22100000-0000-0000-0000-000000000000",
+        "csiCode": "22 11 00"
+      },
+      {
+        "id": "22111300-0000-0000-0000-000000000000",
+        "name": "Domestic Water Pumps",
+        "description": "Water Distribution Pumps",
+        "parentTypeId": "22110000-0000-0000-0000-000000000000",
+        "csiCode": "22 11 13"
+      },
+      {
+        "id": "22111313-0000-0000-0000-000000000000",
+        "name": "Multi-Stage Domestic Water Pumps",
+        "description": "Multi-Stage Pumps",
+        "parentTypeId": "22111300-0000-0000-0000-000000000000",
+        "csiCode": "22 11 13.13"
+      },
+      {
+        "id": "22111316-0000-0000-0000-000000000000",
+        "name": "Domestic Water Packaged Booster Pumps",
+        "description": "Water Booster Systems",
+        "parentTypeId": "22111300-0000-0000-0000-000000000000",
+        "csiCode": "22 11 13.16"
+      },
+      {
+        "id": "22120000-0000-0000-0000-000000000000",
+        "name": "Fire-Suppression Water Storage",
+        "description": "Fire Water Storage",
+        "parentTypeId": "22100000-0000-0000-0000-000000000000",
+        "csiCode": "22 12 00"
+      },
+      {
+        "id": "22121300-0000-0000-0000-000000000000",
+        "name": "Fire-Suppression Water Storage Tanks",
+        "description": "Fire Water Tanks",
+        "parentTypeId": "22120000-0000-0000-0000-000000000000",
+        "csiCode": "22 12 13"
+      },
+      {
+        "id": "22130000-0000-0000-0000-000000000000",
+        "name": "Water Treatment Equipment",
+        "description": "Water Treatment Systems",
+        "parentTypeId": "22000000-0000-0000-0000-000000000000",
+        "csiCode": "22 13 00"
+      },
+      {
+        "id": "22131300-0000-0000-0000-000000000000",
+        "name": "Water Softeners",
+        "description": "Water Softening Systems",
+        "parentTypeId": "22130000-0000-0000-0000-000000000000",
+        "csiCode": "22 13 13"
+      },
+      {
+        "id": "22131600-0000-0000-0000-000000000000",
+        "name": "Reverse Osmosis Equipment",
+        "description": "RO Water Systems",
+        "parentTypeId": "22130000-0000-0000-0000-000000000000",
+        "csiCode": "22 13 16"
+      },
+      {
+        "id": "22131900-0000-0000-0000-000000000000",
+        "name": "Deionization Equipment",
+        "description": "DI Water Systems",
+        "parentTypeId": "22130000-0000-0000-0000-000000000000",
+        "csiCode": "22 13 19"
+      },
+      {
+        "id": "22132300-0000-0000-0000-000000000000",
+        "name": "Water Filtration Equipment",
+        "description": "Water Filtration Systems",
+        "parentTypeId": "22130000-0000-0000-0000-000000000000",
+        "csiCode": "22 13 23"
+      },
+      {
+        "id": "22140000-0000-0000-0000-000000000000",
+        "name": "Facility Storm Drainage",
+        "description": "Storm Drainage Systems",
+        "parentTypeId": "22000000-0000-0000-0000-000000000000",
+        "csiCode": "22 14 00"
+      },
+      {
+        "id": "22141300-0000-0000-0000-000000000000",
+        "name": "Storm Drainage Pumps",
+        "description": "Storm Water Pumps",
+        "parentTypeId": "22140000-0000-0000-0000-000000000000",
+        "csiCode": "22 14 13"
+      },
+      {
+        "id": "22141600-0000-0000-0000-000000000000",
+        "name": "Storm Drainage Piping",
+        "description": "Storm Drainage Distribution",
+        "parentTypeId": "22140000-0000-0000-0000-000000000000",
+        "csiCode": "22 14 16"
+      },
+      {
+        "id": "22141900-0000-0000-0000-000000000000",
+        "name": "Storm Drainage Specialties",
+        "description": "Storm Drainage Components",
+        "parentTypeId": "22140000-0000-0000-0000-000000000000",
+        "csiCode": "22 14 19"
+      },
+      {
+        "id": "22150000-0000-0000-0000-000000000000",
+        "name": "General Service Compressed Air Systems",
+        "description": "Compressed Air Equipment",
+        "parentTypeId": "22000000-0000-0000-0000-000000000000",
+        "csiCode": "22 15 00"
+      },
+      {
+        "id": "22151300-0000-0000-0000-000000000000",
+        "name": "Air Compressors",
+        "description": "General Air Compressors",
+        "parentTypeId": "22150000-0000-0000-0000-000000000000",
+        "csiCode": "22 15 13"
+      },
+      {
+        "id": "22151600-0000-0000-0000-000000000000",
+        "name": "Air Treatment Equipment",
+        "description": "Compressed Air Treatment",
+        "parentTypeId": "22150000-0000-0000-0000-000000000000",
+        "csiCode": "22 15 16"
+      },
+      {
+        "id": "22160000-0000-0000-0000-000000000000",
+        "name": "Facility Natural Gas Systems",
+        "description": "Natural Gas Distribution",
+        "parentTypeId": "22000000-0000-0000-0000-000000000000",
+        "csiCode": "22 16 00"
+      },
+      {
+        "id": "22161300-0000-0000-0000-000000000000",
+        "name": "Natural Gas Piping",
+        "description": "Gas Distribution Piping",
+        "parentTypeId": "22160000-0000-0000-0000-000000000000",
+        "csiCode": "22 16 13"
+      },
+      {
+        "id": "22161600-0000-0000-0000-000000000000",
+        "name": "Natural Gas Equipment",
+        "description": "Gas System Components",
+        "parentTypeId": "22160000-0000-0000-0000-000000000000",
+        "csiCode": "22 16 16"
+      },
+      {
+        "id": "22300000-0000-0000-0000-000000000000",
+        "name": "Plumbing Equipment",
+        "description": "Plumbing Systems Equipment",
+        "parentTypeId": "22000000-0000-0000-0000-000000000000",
+        "csiCode": "22 30 00"
+      },
+      {
+        "id": "22310000-0000-0000-0000-000000000000",
+        "name": "Water Softening Equipment",
+        "description": "Water Treatment Equipment",
+        "parentTypeId": "22300000-0000-0000-0000-000000000000",
+        "csiCode": "22 31 00"
+      },
+      {
+        "id": "22320000-0000-0000-0000-000000000000",
+        "name": "Domestic Water Filtration Equipment",
+        "description": "Water Filtration Systems",
+        "parentTypeId": "22300000-0000-0000-0000-000000000000",
+        "csiCode": "22 32 00"
+      },
+      {
+        "id": "22330000-0000-0000-0000-000000000000",
+        "name": "Domestic Water Heating Equipment",
+        "description": "Water Heating Systems",
+        "parentTypeId": "22300000-0000-0000-0000-000000000000",
+        "csiCode": "22 33 00"
+      },
+      {
+        "id": "22331300-0000-0000-0000-000000000000",
+        "name": "Electric Water Heaters",
+        "description": "Electric Heating Systems",
+        "parentTypeId": "22330000-0000-0000-0000-000000000000",
+        "csiCode": "22 33 13"
+      },
+      {
+        "id": "22331600-0000-0000-0000-000000000000",
+        "name": "Gas-Fired Water Heaters",
+        "description": "Gas Water Heating",
+        "parentTypeId": "22330000-0000-0000-0000-000000000000",
+        "csiCode": "22 33 16"
+      },
+      {
+        "id": "22331900-0000-0000-0000-000000000000",
+        "name": "Steam-Fired Water Heaters",
+        "description": "Steam Water Heating",
+        "parentTypeId": "22330000-0000-0000-0000-000000000000",
+        "csiCode": "22 33 19"
+      },
+      {
+        "id": "22332300-0000-0000-0000-000000000000",
+        "name": "Heat Pump Water Heaters",
+        "description": "Heat Pump Water Heating",
+        "parentTypeId": "22330000-0000-0000-0000-000000000000",
+        "csiCode": "22 33 23"
+      },
+      {
+        "id": "21000000-0000-0000-0000-000000000000",
+        "name": "Fire Protection",
+        "description": "Fire Suppression Systems",
+        "parentTypeId": null,
+        "csiCode": "21 00 00"
+      },
+      {
+        "id": "21100000-0000-0000-0000-000000000000",
+        "name": "Water-Based Fire-Suppression Systems",
+        "description": "Fire Suppression Water Systems",
+        "parentTypeId": "21000000-0000-0000-0000-000000000000",
+        "csiCode": "21 10 00"
+      },
+      {
+        "id": "21130000-0000-0000-0000-000000000000",
+        "name": "Fire-Suppression Sprinkler Systems",
+        "description": "Sprinkler Systems",
+        "parentTypeId": "21100000-0000-0000-0000-000000000000",
+        "csiCode": "21 13 00"
+      },
+      {
+        "id": "21131300-0000-0000-0000-000000000000",
+        "name": "Wet-Pipe Sprinkler Systems",
+        "description": "Wet Sprinkler Systems",
+        "parentTypeId": "21130000-0000-0000-0000-000000000000",
+        "csiCode": "21 13 13"
+      },
+      {
+        "id": "21131600-0000-0000-0000-000000000000",
+        "name": "Dry-Pipe Sprinkler Systems",
+        "description": "Dry Sprinkler Systems",
+        "parentTypeId": "21130000-0000-0000-0000-000000000000",
+        "csiCode": "21 13 16"
+      },
+      {
+        "id": "21131900-0000-0000-0000-000000000000",
+        "name": "Preaction Sprinkler Systems",
+        "description": "Preaction Systems",
+        "parentTypeId": "21130000-0000-0000-0000-000000000000",
+        "csiCode": "21 13 19"
+      },
+      {
+        "id": "21132300-0000-0000-0000-000000000000",
+        "name": "Deluge Fire-Suppression Sprinkler Systems",
+        "description": "Deluge Systems",
+        "parentTypeId": "21130000-0000-0000-0000-000000000000",
+        "csiCode": "21 13 23"
+      },
+      {
+        "id": "21200000-0000-0000-0000-000000000000",
+        "name": "Fire-Extinguishing Systems",
+        "description": "Special Fire Suppression",
+        "parentTypeId": "21000000-0000-0000-0000-000000000000",
+        "csiCode": "21 20 00"
+      },
+      {
+        "id": "21210000-0000-0000-0000-000000000000",
+        "name": "Carbon-Dioxide Fire-Extinguishing Systems",
+        "description": "CO2 Systems",
+        "parentTypeId": "21200000-0000-0000-0000-000000000000",
+        "csiCode": "21 21 00"
+      },
+      {
+        "id": "21220000-0000-0000-0000-000000000000",
+        "name": "Clean-Agent Fire-Extinguishing Systems",
+        "description": "Clean Agent Systems",
+        "parentTypeId": "21200000-0000-0000-0000-000000000000",
+        "csiCode": "21 22 00"
+      },
+      {
+        "id": "21230000-0000-0000-0000-000000000000",
+        "name": "Water Mist Fire-Protection Systems",
+        "description": "Water Mist Systems",
+        "parentTypeId": "21200000-0000-0000-0000-000000000000",
+        "csiCode": "21 23 00"
+      },
+      {
+        "id": "21240000-0000-0000-0000-000000000000",
+        "name": "Foam Fire-Extinguishing Systems",
+        "description": "Foam Systems",
+        "parentTypeId": "21200000-0000-0000-0000-000000000000",
+        "csiCode": "21 24 00"
+      },
+      {
+        "id": "21300000-0000-0000-0000-000000000000",
+        "name": "Fire Pumps",
+        "description": "Fire Protection Pumps",
+        "parentTypeId": "21000000-0000-0000-0000-000000000000",
+        "csiCode": "21 30 00"
+      },
+      {
+        "id": "21310000-0000-0000-0000-000000000000",
+        "name": "Centrifugal Fire Pumps",
+        "description": "Fire Water Pumps",
+        "parentTypeId": "21300000-0000-0000-0000-000000000000",
+        "csiCode": "21 31 00"
+      },
+      {
+        "id": "21311300-0000-0000-0000-000000000000",
+        "name": "Electric-Drive Centrifugal Fire Pumps",
+        "description": "Electric Fire Pumps",
+        "parentTypeId": "21310000-0000-0000-0000-000000000000",
+        "csiCode": "21 31 13"
+      },
+      {
+        "id": "21311600-0000-0000-0000-000000000000",
+        "name": "Diesel-Drive Centrifugal Fire Pumps",
+        "description": "Diesel Fire Pumps",
+        "parentTypeId": "21310000-0000-0000-0000-000000000000",
+        "csiCode": "21 31 16"
+      },
+      {
+        "id": "25000000-0000-0000-0000-000000000000",
+        "name": "Integrated Automation",
+        "description": "Building Automation Systems",
+        "parentTypeId": null,
+        "csiCode": "25 00 00"
+      },
+      {
+        "id": "25100000-0000-0000-0000-000000000000",
+        "name": "Integrated Automation Control and Monitoring",
+        "description": "Building Controls",
+        "parentTypeId": "25000000-0000-0000-0000-000000000000",
+        "csiCode": "25 10 00"
+      },
+      {
+        "id": "25130000-0000-0000-0000-000000000000",
+        "name": "Integrated Automation Control Equipment",
+        "description": "Control Equipment",
+        "parentTypeId": "25100000-0000-0000-0000-000000000000",
+        "csiCode": "25 13 00"
+      },
+      {
+        "id": "25131300-0000-0000-0000-000000000000",
+        "name": "Building Controllers",
+        "description": "Main Controllers",
+        "parentTypeId": "25130000-0000-0000-0000-000000000000",
+        "csiCode": "25 13 13"
+      },
+      {
+        "id": "25131600-0000-0000-0000-000000000000",
+        "name": "Application-Specific Controllers",
+        "description": "Local Controllers",
+        "parentTypeId": "25130000-0000-0000-0000-000000000000",
+        "csiCode": "25 13 16"
+      },
+      {
+        "id": "22200000-0000-0000-0000-000000000000",
+        "name": "Laboratory Plumbing Systems",
+        "description": "Lab Plumbing Equipment",
+        "parentTypeId": "22000000-0000-0000-0000-000000000000",
+        "csiCode": "22 20 00"
+      },
+      {
+        "id": "22201300-0000-0000-0000-000000000000",
+        "name": "Process Water Systems",
+        "description": "Process Water Equipment",
+        "parentTypeId": "22200000-0000-0000-0000-000000000000",
+        "csiCode": "22 20 13"
+      },
+      {
+        "id": "22201600-0000-0000-0000-000000000000",
+        "name": "Purified Water Systems",
+        "description": "Pure Water Distribution",
+        "parentTypeId": "22200000-0000-0000-0000-000000000000",
+        "csiCode": "22 20 16"
+      },
+      {
+        "id": "22210000-0000-0000-0000-000000000000",
+        "name": "Fuel Oil Systems",
+        "description": "Fuel Distribution",
+        "parentTypeId": "22000000-0000-0000-0000-000000000000",
+        "csiCode": "22 21 00"
+      },
+      {
+        "id": "22211300-0000-0000-0000-000000000000",
+        "name": "Fuel Oil Storage Tanks",
+        "description": "Fuel Storage",
+        "parentTypeId": "22210000-0000-0000-0000-000000000000",
+        "csiCode": "22 21 13"
+      },
+      {
+        "id": "22211600-0000-0000-0000-000000000000",
+        "name": "Fuel Oil Transfer Pumps",
+        "description": "Fuel Pumps",
+        "parentTypeId": "22210000-0000-0000-0000-000000000000",
+        "csiCode": "22 21 16"
+      },
+      {
+        "id": "23730000-0000-0000-0000-000000000000",
+        "name": "Process Heating and Cooling",
+        "description": "Process HVAC Systems",
+        "parentTypeId": "23000000-0000-0000-0000-000000000000",
+        "csiCode": "23 73 00"
+      },
+      {
+        "id": "23731300-0000-0000-0000-000000000000",
+        "name": "Process Cooling Units",
+        "description": "Process Cooling",
+        "parentTypeId": "23730000-0000-0000-0000-000000000000",
+        "csiCode": "23 73 13"
+      },
+      {
+        "id": "23731600-0000-0000-0000-000000000000",
+        "name": "Process Heating Units",
+        "description": "Process Heating",
+        "parentTypeId": "23730000-0000-0000-0000-000000000000",
+        "csiCode": "23 73 16"
+      },
+      {
+        "id": "26350000-0000-0000-0000-000000000000",
+        "name": "Industrial Battery Equipment",
+        "description": "Industrial Battery Systems",
+        "parentTypeId": "26000000-0000-0000-0000-000000000000",
+        "csiCode": "26 35 00"
+      },
+      {
+        "id": "26351300-0000-0000-0000-000000000000",
+        "name": "Battery Monitoring Systems",
+        "description": "Battery Monitoring",
+        "parentTypeId": "26350000-0000-0000-0000-000000000000",
+        "csiCode": "26 35 13"
+      },
+      {
+        "id": "26351600-0000-0000-0000-000000000000",
+        "name": "Battery Testing Equipment",
+        "description": "Battery Testing",
+        "parentTypeId": "26350000-0000-0000-0000-000000000000",
+        "csiCode": "26 35 16"
+      },
+      {
+        "id": "26360000-0000-0000-0000-000000000000",
+        "name": "Transfer Switches",
+        "description": "Power Transfer Equipment",
+        "parentTypeId": "26000000-0000-0000-0000-000000000000",
+        "csiCode": "26 36 00"
+      },
+      {
+        "id": "26361300-0000-0000-0000-000000000000",
+        "name": "Manual Transfer Switches",
+        "description": "Manual Transfer Equipment",
+        "parentTypeId": "26360000-0000-0000-0000-000000000000",
+        "csiCode": "26 36 13"
+      },
+      {
+        "id": "26361600-0000-0000-0000-000000000000",
+        "name": "Automatic Transfer Switches",
+        "description": "Auto Transfer Equipment",
+        "parentTypeId": "26360000-0000-0000-0000-000000000000",
+        "csiCode": "26 36 16"
+      },
+      {
+        "id": "26361900-0000-0000-0000-000000000000",
+        "name": "Bypass-Isolation Transfer Switches",
+        "description": "Bypass Transfer Equipment",
+        "parentTypeId": "26360000-0000-0000-0000-000000000000",
+        "csiCode": "26 36 19"
+      }
+
+
+    ]
